@@ -1,0 +1,121 @@
+/* stuff from coolor palette from the photo in this proj */
+/* CSS HEX */
+/* 
+--van-dyke: #392628ff;
+--english-violet: #3d344fff;
+--thistle: #c1b9cbff;
+--raisin-black: #26212eff;
+--lion: #ac8a5dff;
+
+/* CSS HSL */
+--van-dyke: hsla(354, 20%, 19%, 1);
+--english-violet: hsla(260, 21%, 26%, 1);
+--thistle: hsla(267, 15%, 76%, 1);
+--raisin-black: hsla(263, 16%, 15%, 1);
+--lion: hsla(34, 32%, 52%, 1);
+
+/* SCSS HEX */
+$van-dyke: #392628ff;
+$english-violet: #3d344fff;
+$thistle: #c1b9cbff;
+$raisin-black: #26212eff;
+$lion: #ac8a5dff;
+
+/* SCSS HSL */
+$van-dyke: hsla(354, 20%, 19%, 1);
+$english-violet: hsla(260, 21%, 26%, 1);
+$thistle: hsla(267, 15%, 76%, 1);
+$raisin-black: hsla(263, 16%, 15%, 1);
+$lion: hsla(34, 32%, 52%, 1);
+
+/* SCSS RGB */
+$van-dyke: rgba(57, 38, 40, 1);
+$english-violet: rgba(61, 52, 79, 1);
+$thistle: rgba(193, 185, 203, 1);
+$raisin-black: rgba(38, 33, 46, 1);
+$lion: rgba(172, 138, 93, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #392628ff, #3d344fff, #c1b9cbff, #26212eff, #ac8a5dff);
+$gradient-right: linear-gradient(90deg, #392628ff, #3d344fff, #c1b9cbff, #26212eff, #ac8a5dff);
+$gradient-bottom: linear-gradient(180deg, #392628ff, #3d344fff, #c1b9cbff, #26212eff, #ac8a5dff);
+$gradient-left: linear-gradient(270deg, #392628ff, #3d344fff, #c1b9cbff, #26212eff, #ac8a5dff);
+$gradient-top-right: linear-gradient(45deg, #392628ff, #3d344fff, #c1b9cbff, #26212eff, #ac8a5dff);
+$gradient-bottom-right: linear-gradient(135deg, #392628ff, #3d344fff, #c1b9cbff, #26212eff, #ac8a5dff);
+$gradient-top-left: linear-gradient(225deg, #392628ff, #3d344fff, #c1b9cbff, #26212eff, #ac8a5dff);
+$gradient-bottom-left: linear-gradient(315deg, #392628ff, #3d344fff, #c1b9cbff, #26212eff, #ac8a5dff);
+$gradient-radial: radial-gradient(#392628ff, #3d344fff, #c1b9cbff, #26212eff, #ac8a5dff); */
+
+/* end stuff from coolor */
+
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 10px
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #D1B289;
+    color: #3D344F;
+    border-bottom: 6px solid #7A6E6F;
+        
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+    border-radius: 10px;
+
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
+.color img{
+filter: grayscale(60%);
+-webkit-filter: grayscale(60%);
+-webkit-transition: all 1s ease;
+transition: all 1s ease;
+}
+
+.color img:hover{
+filter: grayscale(0%);
+filter: gray;
+-webkit-filter: grayscale(0%);
+filter: none;
+transition: 1s ease;
+}
+
+/*
+Final challenge:
+Download the code to your local computer and place it
+in a folder called "business-card"
+*/
